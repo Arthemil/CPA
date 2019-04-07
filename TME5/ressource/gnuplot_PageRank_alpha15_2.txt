@@ -1,0 +1,8 @@
+plot 'PageRank_alpha15_2.txt'
+set style fill solid 1
+set term postscript portrait
+set xlabel "Page Rank alpha=0.15"
+set ylabel "Page Rank alpha=0.2"
+set output "PageRank_alpha15_2.ps"
+replot
+

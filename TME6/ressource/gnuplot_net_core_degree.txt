@@ -1,0 +1,11 @@
+plot 'net_core_degree.txt' linecolor rgb "red"
+set xlabel "Degree"
+set ylabel "Coreness"
+set logscale x 10
+set logscale y 10
+set format x "10^{%L}"
+set format y "10^{%L}"
+set term postscript portrait
+set output "net_core_degree.ps"
+replot
+

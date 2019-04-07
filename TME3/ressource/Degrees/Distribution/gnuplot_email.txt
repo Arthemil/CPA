@@ -1,0 +1,10 @@
+plot 'email_degree_distribution.txt' smooth csplines 
+
+set boxwidth 0.08
+set xlabel "degree"
+set ylabel "nodes"
+set logscale x 10
+set logscale y 10
+set term postscript portrait
+set output "email.ps"
+replot

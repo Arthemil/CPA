@@ -1,0 +1,9 @@
+plot 'amazon_degree_distribution.txt' smooth csplines 
+set boxwidth 0.02
+set style fill solid 0.5 border  rgb 'red'
+set xlabel "degree"
+set ylabel "nodes"
+
+set term postscript portrait
+set output "amazon.ps"
+replot

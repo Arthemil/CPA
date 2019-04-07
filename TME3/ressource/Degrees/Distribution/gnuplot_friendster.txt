@@ -1,0 +1,9 @@
+plot 'friendster_degree_distribution.txt' smooth csplines 
+
+set term postscript portrait
+set output "friendster.ps"
+set xlabel "degree"
+set ylabel "nodes"
+set logscale x 10
+set logscale y 10
+replot

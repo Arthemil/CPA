@@ -1,0 +1,9 @@
+plot 'orkut_degree_distribution.txt' smooth csplines
+set style fill solid 1
+set term postscript portrait
+set xlabel "degree"
+set ylabel "nodes"
+set logscale x 10
+set logscale y 10
+set output "orkut.ps"
+replot

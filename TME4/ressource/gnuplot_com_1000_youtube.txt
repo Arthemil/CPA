@@ -1,0 +1,8 @@
+plot 'Youtube_com_1000.txt' linecolor rgb "red"
+set style fill solid 0.5
+set xlabel "iteration"
+set ylabel "nombre de communautes"
+set term postscript portrait
+set output "Youtube_com_1000.ps"
+replot
+

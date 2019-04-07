@@ -1,0 +1,40 @@
+plot 'Youtube_size_community0_250000.txt' with boxes linecolor rgb "red"
+set style fill solid 1
+set xlabel "label"
+set ylabel "number of nodes"
+set term postscript portrait
+set output "Youtube_size_community0_250000.ps"
+replot
+
+plot 'Youtube_size_community250000_500000.txt' with boxes linecolor rgb "red"
+set style fill solid 1
+set xlabel "label"
+set ylabel "number of nodes"
+set term postscript portrait
+set output "Youtube_size_community250000_500000.ps"
+replot
+
+plot 'Youtube_size_community500000_750000.txt' with boxes linecolor rgb "red"
+set style fill solid 1
+set xlabel "label"
+set ylabel "number of nodes"
+set term postscript portrait
+set output "Youtube_size_community500000_750000.ps"
+replot
+
+plot 'Youtube_size_community750000_1000000.txt' with boxes linecolor rgb "red"
+set style fill solid 1
+set xlabel "label"
+set ylabel "number of nodes"
+set term postscript portrait
+set output "Youtube_size_community750000_1000000.ps"
+replot
+
+plot 'Youtube_size_community1000000_end.txt' with boxes linecolor rgb "red"
+set style fill solid 1
+set xlabel "label"
+set ylabel "number of nodes"
+set term postscript portrait
+set output "Youtube_size_community1000000_end.ps"
+replot
+

@@ -1,0 +1,8 @@
+plot 'PageRank_inDegree.txt'
+set style fill solid 1
+set term postscript portrait
+set xlabel "Page Rank"
+set ylabel " in Degrees"
+set output "PageRank_inDegree.ps"
+replot
+
